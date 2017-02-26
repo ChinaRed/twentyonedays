@@ -1,0 +1,81 @@
+/*global*/
+
+h1, h2, h3, p, ul {
+  font-family: 'Amiko', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: lightgrey;
+}
+
+ul{
+  padding-left: 5%;
+  list-style-type: none;
+  padding: 5px 15px;
+}
+
+li{
+  padding: 5px 0;
+}
+
+/*layout*/
+
+header{
+  background-color: lightgreen;
+}
+
+.logo{
+  font-size: 1em;
+  display: inline-block;
+  padding-left: 1%;
+}
+
+.sect_information{
+  background-color: salmon;
+  padding: 10px;
+}
+
+.about{
+  border: 2px solid darkgrey;
+  width: 50%;
+  display: inline-block;
+}
+
+.purchase_list{
+  border: 2px solid grey;
+  width: 39%;
+  display: inline-block;
+  float: right; 
+}
+
+.recipe{
+  border: 2px solid beige;
+  display: inline-block;
+}
+
+.sect_schedule{
+  display: inline-block;
+  background-color: darkgrey;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.diet_schedule{
+  width: 50%;
+  background-color: green;
+  display: inline-block;
+}
+
+.supplement_schedule{
+  width: 49%;
+  background-color: salmon;
+  display: inline-block;
+  float: right;
+}
+
+.activity_schedule{
+  width: 50%;
+  background-color: pink;
+  display: inline-block;
+}
