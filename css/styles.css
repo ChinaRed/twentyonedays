@@ -4,6 +4,16 @@ h1, h2, h3, p, ul {
   font-family: 'Amiko', sans-serif;
 }
 
+h1{
+  font-size: 1.3em;
+  font-style: bold;
+}
+
+h2{
+  font-size: 1em;
+}
+
+
 a{
   text-decoration: none;
   color: lightgrey;
@@ -17,6 +27,14 @@ ul{
 
 li{
   padding: 5px 0;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }
 
 /*layout*/
@@ -33,7 +51,7 @@ header{
 
 .sect_information{
   background-color: salmon;
-  padding: 10px;
+  padding: 0 5%;
 }
 
 .about{
@@ -52,30 +70,31 @@ header{
 .recipe{
   border: 2px solid beige;
   display: inline-block;
+  width: 50%;
 }
 
 .sect_schedule{
   display: inline-block;
-  background-color: darkgrey;
-  width: 100%;
+  background-color:  darkgrey;
+  /*width: 100%;*/
   padding-left: 10px;
 }
 
 .diet_schedule{
   width: 50%;
-  background-color: green;
+  border: 2px solid green;
   display: inline-block;
 }
 
 .supplement_schedule{
-  width: 49%;
-  background-color: salmon;
+  width: 48%;
+  border: 2px solid salmon;
   display: inline-block;
   float: right;
 }
 
 .activity_schedule{
   width: 50%;
-  background-color: pink;
+  border: 2px solid pink;
   display: inline-block;
 }
