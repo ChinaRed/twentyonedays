@@ -154,6 +154,23 @@ footer{
 /* ***** SMALL ONLY **** */
 @media (max-width: 720px){
 
+  .sect_information{
+    padding: 0 10px;
+    margin-top: 25px;
+  }
+
+  .sect_schedule{
+    padding: 0 10px;
+    margin-top: 25px;
+
+  }
+
+  .sect_restrictions{
+    padding: 0 10px;
+    margin-top: 25px;
+
+  }
+
   .hero{
     height: 300px;
   }
@@ -169,6 +186,11 @@ footer{
     margin-top: 50px;
   }
 
+  .recipe{
+    display: inline-block;
+    width: 94%;
+  }
+
   .diet_schedule{
     display: block;
     width: 100%;
@@ -179,6 +201,7 @@ footer{
     display: block;
     width: 100%;
     margin-top: 50px;
+    padding: 0;
   }
 
   .activity_schedule{
