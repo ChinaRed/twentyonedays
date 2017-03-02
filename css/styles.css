@@ -64,7 +64,7 @@ header{
 }
 
 .hero{
-  background-image: url("/assets/hero.jpg");
+  background-image: url("assets/hero.jpg");
   height: 490px;
   background-size: cover;
   background-position: 28%;
