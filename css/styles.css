@@ -161,18 +161,17 @@ footer{
 @media (max-width: 720px){
 
   .sect_information{
-    padding: 0 30px;
+    padding: 50px 30px;
     margin-top: 25px;
   }
 
   .sect_schedule{
-    padding: 0 30px;
+    padding: 50px 30px;
     margin-top: 25px;
-
   }
 
   .sect_restrictions{
-    padding: 0 30px;
+    padding: 50px 30px;
     margin-top: 25px;
 
   }
