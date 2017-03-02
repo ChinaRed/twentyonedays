@@ -64,9 +64,10 @@ header{
 }
 
 .hero{
-  background-image: url("../assets/hero.jpg");
-  height: 590px;
+  background-image: url("./assets/hero.jpg");
+  height: 490px;
   background-size: cover;
+  background-position: 28%;
 }
 
 .sect_information{
