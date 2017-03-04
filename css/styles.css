@@ -38,6 +38,7 @@ p{
 a{
   text-decoration: none;
   color: darkgrey;
+  font-size: 1.1em;
 }
 
 ul{
@@ -55,23 +56,36 @@ li{
 
 header{
   color: #ffffff;
+  padding: 5px 50px 35px;
 }
 
 .logo{
   font-size: 1em;
   display: inline-block;
   padding-left: 1%;
+  float: left;
+}
+
+.logo h2{
+  padding-top: 14px;
+}
+
+nav li{
+  display: inline;
+  float: left;
+  padding-left: 45px;
 }
 
 .hero{
   background-image: url("../assets/hero.jpg");
-  height: 490px;
+  height: 550px;
   background-size: cover;
   background-position: 28%;
 }
 
 .sect_information{
   padding: 55px 80px;
+  display: inline-block;
 }
 
 .about{
@@ -160,9 +174,14 @@ footer{
 /* ***** SMALL ONLY **** */
 @media (max-width: 720px){
 
+  header{
+    display: inline-block;
+    padding: 0px 50px 10px;
+  }
+
   .sect_information{
-    padding: 50px 30px;
-    margin-top: 25px;
+    padding: 0 30px 30px 55px;
+    margin-top: 30px;
   }
 
   .sect_schedule{
@@ -174,6 +193,10 @@ footer{
     padding: 50px 30px;
     margin-top: 25px;
 
+  }
+
+  nav{
+    display: none;
   }
 
   .hero{
