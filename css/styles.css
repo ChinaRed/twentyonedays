@@ -113,26 +113,9 @@ nav li{
 
 .sect_schedule{
   display: inline-block;
-  background-color: #171820;
+  background-color: #e1e2ea;
   padding: 55px 100px;
-}
-
-.sect_schedule h1{
-  color: #fbfbfb;
   letter-spacing: 1px;
-}
-
-.sect_schedule h2{
-  color: #fbfbfb;
-  letter-spacing: 1px;
-}
-
-.sect_schedule h3{
-  color: #fbfbfb;
-}
-
-.sect_schedule li{
-  color: #fbfbfb;
 }
 
 .diet_schedule{
